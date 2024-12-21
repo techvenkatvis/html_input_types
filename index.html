@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="flex_item">
+                <i class="fa fa-bars"></i>
+                <h1>Input types</h1>
+            </div>
+            <p>All available input types are included</p>
+        </header>
+        <main>
+            <form>
+                <div class="text">
+                    <label for="text">Text</label><br>
+                    <input type="text" id="text" class="text" placeholder="Your name">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" class="email" placeholder="Your email">
+                </div>
+                <div class="phonenumber">
+                    <label for="phonenumber">Phonenumber</label><br>
+                    <input type="number" id="phonenumber" class="phonenumber" placeholder="Your phonenumber">
+                </div>
+                <div class="url">
+                    <label for="url">Url</label><br>
+                    <input type="url" id="url" class="url" placeholder="www.google.com">
+                </div>
+                <div class="password">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" class="password" placeholder="Your password">
+                </div>
+                <div class="search">
+                    <label for="search">Search</label><br>
+                    <i class="fa fa-search"></i>
+                    <input type="search" id="search" class="search" placeholder="Search all the things">
+                </div>
+                <div class="disabled_field">
+                    <label for="disabled_field">Disabled field</label><br>
+                    <input type="" id="disabled_field" class="disabled_field" placeholder="Your name">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="toggle_code">
+                <button>Submit</button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
